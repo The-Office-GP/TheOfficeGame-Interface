@@ -4,11 +4,14 @@
     --deep-blue: #023047; /* deep-blue */
     --orange: #FFB35C; /*orange*/
     --yellow: #FFD15C; /* yellow */
-    --white: #FFFFFF;/*white*/
+    --white: #FFFFFF; /*white*/
 }
 
-.office-background-section{
+.subscribe-page-section {
     width: 100%;
-    height: 100%;
+    min-height: 854px;
+    max-width: 1728px;
+    max-height: 1117px;
     background-image: url("https://trello.com/1/cards/67b34f92a0acde729599d959/attachments/67b44ab0a31460be2a6e7462/download/home-back-ground2.webp");
+
 }

@@ -1,12 +1,13 @@
 import {FC} from 'react';
-import OfficeBackground from "../background/background-company-level/page-background/OfficeBackground.tsx";
+import "../styles/SubscribePage.css"
+
 
 const SubscribePage: FC<{}> = ({}) => {
     return (
-        <>
-            <OfficeBackground/>
+        < section className={"subscribe-page-section"}>
 
-        </>
+
+        </section>
     );
 };
 
