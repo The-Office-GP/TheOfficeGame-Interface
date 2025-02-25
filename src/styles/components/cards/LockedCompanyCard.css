@@ -1,0 +1,23 @@
+.locked-company-card{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(2, 48, 71, 0.8);
+    color: white;
+    font-size: x-large;
+    box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.56);
+}
+.lock-icon{
+    width: 100px !important;
+    height: 100px ! important;
+    color: #219EBC;
+}
+
+.lock-icon:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
