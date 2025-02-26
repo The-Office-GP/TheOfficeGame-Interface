@@ -6,13 +6,13 @@ import CompanyCard from "../components/cards/CompanyCard.tsx";
 import {Grid2} from "@mui/material";
 
 import "../styles/pages/OfficePage.css"
+import "../styles/pages/OfficeBackground.css"
 
 const OfficePage: FC<{}> = ({}) => {
     return (
         <>
             <Header/>
-            <section className={"office-page-section"}>
-
+            <section className={"office-background-section"}>
                 <Grid2 className={"company-cards-carousel"}>
                     <LockedCompanyCard/>
                     <CompanyCard/>

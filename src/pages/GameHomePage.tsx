@@ -5,14 +5,12 @@ import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
 
 
+
 const GameHomePage: FC<{}> = ({}) => {
     return (
         <>
             <Header/>
-
                 <BackgroundCompanyModel1Level1/>
-
-
             <Footer/>
         </>
     );
