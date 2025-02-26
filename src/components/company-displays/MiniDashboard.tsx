@@ -13,7 +13,7 @@ const MiniDashboard: FC<{}> = ({}) => {
                 <h3>CompanyName</h3>
                 <div className={"mini-dashboard-info-money"}>
                     <PaidIcon/>
-                    <p>100 000 000</p>
+                    <p>100 000 000 €</p>
                 </div>
                 <div className={"infos-display"}>
                     <div className={"mini-dashboard-info"}>
@@ -28,6 +28,7 @@ const MiniDashboard: FC<{}> = ({}) => {
                         <ConstructionIcon/>
                         <p className={"negative"}>- 2%</p>/<p className={"positive"}>+ 5%</p>
                     </div>
+
                 </div>
 
             </div>
