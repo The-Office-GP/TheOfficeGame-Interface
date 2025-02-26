@@ -9,6 +9,7 @@ import SimulationButton from "../components/buttons/dashboard-buttons/Simulation
 import ProductionCard from "../components/cards/dashboard-cards/ProductionCard.tsx";
 import EmployeesCard from "../components/cards/dashboard-cards/EmployeesCard.tsx";
 import ToolsCard from "../components/cards/dashboard-cards/ToolsCard.tsx";
+import ExitButton from "../components/buttons/ExitButton.tsx";
 
 
 
@@ -17,17 +18,12 @@ const GameDashboardPage: FC<{}> = ({}) => {
         <>
             <Header/>
             <section className={"office-background-section"}>
-
                 <div className={"menu-container"}>
-                    <img
-                        src={"https://trello.com/1/cards/67b34f92a0acde729599d959/attachments/67bde1ff4f7314b58e617663/download/Exit.png"}
-                        alt={"exit"} className={"exit"}
-                    />
+                   <ExitButton/>
                     <div className={"dashboard-display"}>
                         <div className={"icon-title"}>
                             <ImportantDevicesIcon className={"dashboard-icon"}/><h3>Dashboard</h3>
                         </div>
-
                         <div className={"metrics-cards-container"}>
                             <ProductionCard/>
                             <EmployeesCard/>

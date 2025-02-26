@@ -1,0 +1,72 @@
+h4{
+    margin-bottom: 10px;
+    font-size:x-large;
+    font-weight:bolder;
+}
+.exit-buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons-container {
+    width: 270px;
+    height: 360px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.card-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.icon-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    text-align: center;
+}
+.icon{
+    width: 50px !important;
+    height: 50px !important;
+}
+.description-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description{
+    margin-right: 30px;
+    width: 340px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: x-large;
+}
+.tools-properties {
+
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    gap: 10px;
+}
+
+.price {
+    box-sizing: border-box;
+    marging: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.progress {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
