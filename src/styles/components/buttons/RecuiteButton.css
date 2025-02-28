@@ -1,0 +1,17 @@
+.recuite-button {
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 280px;
+    height: 60px;
+    border: none;
+    border-radius: 40px;
+    color: #FFFFFF;
+    background: #FFB35C;
+    font-size: x-large;
+}
+.recuite-button:hover {
+    transform: scale(1.1);
+}

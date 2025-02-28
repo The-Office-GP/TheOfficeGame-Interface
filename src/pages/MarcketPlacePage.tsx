@@ -2,7 +2,7 @@ import {FC} from 'react';
 import "../styles/pages/OfficeBackground.css"
 import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
-import ExitButton from "../components/buttons/ExitButton.tsx";
+import ExitButton from "../components/buttons/global-buttons/ExitButton.tsx";
 import Level1ToolsButton from "../components/buttons/marcket-place-buttons/Level1ToolsButton.tsx";
 import Level2ToolsButton from "../components/buttons/marcket-place-buttons/Level2ToolsButton.tsx";
 import Level3ToolButton from "../components/buttons/marcket-place-buttons/Level3ToolsButton.tsx";
@@ -33,7 +33,7 @@ const MarketPlacePage: FC<{}> = ({}) => {
                             <h3>Boutique</h3>
                         </div>
                         <div className={"card-header"}>
-                            <img
+                            <img className={"tools-img"}
                                 src={"https://trello.com/1/cards/67b34f92a0acde729599d959/attachments/67befb94c61b80711fd91222/download/tool-dynamic-color.png"}
                                 alt={"image de l'outils"}
                             />

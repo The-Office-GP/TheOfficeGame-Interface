@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import "../../styles/components/cards/CompanyCard.css"
+import "../../../styles/components/cards/CompanyCard.css"
 
 
 const CompanyCard: FC<{}> = ({}) => {

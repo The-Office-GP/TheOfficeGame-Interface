@@ -1,8 +1,8 @@
 import {FC} from 'react';
 import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
-import LockedCompanyCard from "../components/cards/LockedCompanyCard.tsx";
-import CompanyCard from "../components/cards/CompanyCard.tsx";
+import LockedCompanyCard from "../components/buttons/office-buttons/LockedCompanyCard.tsx";
+import CompanyCard from "../components/buttons/office-buttons/CompanyCard.tsx";
 import {Grid2} from "@mui/material";
 
 import "../styles/pages/OfficePage.css"

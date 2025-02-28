@@ -7,9 +7,9 @@ import "../styles/pages/OfficeBackground.css"
 import "../styles/components/menu-display/MenuContainer.css"
 import SimulationButton from "../components/buttons/dashboard-buttons/SimulationButton.tsx";
 import ProductionCard from "../components/cards/dashboard-cards/ProductionCard.tsx";
-import EmployeesCard from "../components/cards/dashboard-cards/EmployeesCard.tsx";
+import EmployeesCard from "../components/cards/employees-cards/EmployeesCard.tsx";
 import ToolsCard from "../components/cards/dashboard-cards/ToolsCard.tsx";
-import ExitButton from "../components/buttons/ExitButton.tsx";
+import ExitButton from "../components/buttons/global-buttons/ExitButton.tsx";
 
 
 

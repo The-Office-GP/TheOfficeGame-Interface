@@ -13,6 +13,7 @@ import SimulationPage from "./pages/SimulationPage.tsx";
 import EvenementPage from "./pages/EvenementPage.tsx";
 import TreeMonthCheckPage from "./pages/TreeMonthCheckPage.tsx";
 import YearCheckPage from "./pages/YearCheckPage.tsx";
+import EmployeesPage2 from "./pages/EmployeesPage2.tsx";
 
 
 function App() {
@@ -29,12 +30,12 @@ function App() {
             <GameDashboardPage/>
             <SimulationPage/>
             <MarcketPlacePage/>
+            <EmployeesPage2/>
             <GameEmployeesPage/>
             <RecruitmentPage/>
             <EvenementPage/>
             <TreeMonthCheckPage/>
             <YearCheckPage/>
-
         </>
     )
 }

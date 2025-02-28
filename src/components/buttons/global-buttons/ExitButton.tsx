@@ -1,5 +1,5 @@
 import {FC} from 'react';
-import "../../styles/components/buttons/ExitButton.css"
+import "../../../styles/components/buttons/ExitButton.css"
 
 const ExitButton: FC<{}> = ({}) => {
     return (

@@ -5,7 +5,7 @@ import Footer from "../components/Footer.tsx";
 import "../styles/pages/OfficeBackground.css"
 
 
-import CreateCompanyCard from "../components/cards/CreateCompanyCard.tsx";
+import CreateCompanyCard from "../components/buttons/office-buttons/CreateCompanyCard.tsx";
 
 
 const CreateCompanyPage: FC<{}> = ({}) => {

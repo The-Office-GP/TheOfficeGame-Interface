@@ -1,7 +1,7 @@
 import {FC} from 'react';
 import AddCircleOutlineIcon from '@mui/icons-material/AddCircleOutline';
 
-import "../../styles/components/cards/CreateCompanyCard.css"
+import "../../../styles/components/cards/CreateCompanyCard.css"
 
 const CreateCompanyCard: FC<{}> = ({}) => {
     return (

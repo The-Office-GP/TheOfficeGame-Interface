@@ -1,6 +1,6 @@
 import {FC} from 'react';
 import EnhancedEncryptionIcon from '@mui/icons-material/EnhancedEncryption';
-import "../../styles/components/cards/LockedCompanyCard.css"
+import "../../../styles/components/cards/LockedCompanyCard.css"
 
 
 
