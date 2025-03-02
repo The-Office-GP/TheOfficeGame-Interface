@@ -2,20 +2,20 @@ import {FC} from 'react';
 import "../styles/pages/OfficeBackground.css"
 import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
-import "../styles/components/containers/SimulationContainer.css"
+import ChoiceCard from "../components/cards/event-cards/ChoiceCard.tsx";
 
-const YearCheckPage: FC<{}> = ({}) => {
+const EventPage: FC<{}> = ({}) => {
     return (
         <>
             <Header/>
             <section className={"office-background-section"}>
-                <div className={"simulation-container"}>
-                    <h2>Bilan annuel !</h2>
-                </div>
+
+            <ChoiceCard/>
+
             </section>
             <Footer/>
         </>
     );
 };
 
-export default YearCheckPage;
+export default EventPage;

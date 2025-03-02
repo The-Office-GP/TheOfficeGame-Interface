@@ -9,8 +9,8 @@ import EmployeeList from "../data/EmployeesList.tsx";
 import "../styles/pages/EmpoyeesPage.css"
 import EmployeesLevelButtons from "../components/buttons/employees-buttons/EmployeesLevelButtons.tsx";
 import EmployeesJobsButtons from "../components/buttons/employees-buttons/EmployeesJobsButtons.tsx";
-import EmployeesDataDisplay from "../components/list/EmployeesDataDisplay.tsx";
 import RecuiteButton from "../components/buttons/employees-buttons/RecruiteButton.tsx";
+import PeopleIcon from "@mui/icons-material/People";
 
 
 const EmployeesPage2: FC<{}> = ({}) => {
@@ -20,10 +20,12 @@ const EmployeesPage2: FC<{}> = ({}) => {
             <section className={"office-background-section"} id={"list-section"}>
                 <div className={"display-container"}>
                     <aside className={"employees-aside"}>
-                        <h3>Mes salariés</h3>
+                        <div className={"icon-title"}>
+                            <PeopleIcon className={"menu-Icon"}/>
+                            <h3>Mes salariés</h3>
+                        </div>
                         <EmployeesJobsButtons/>
                         <EmployeesLevelButtons/>
-                        <EmployeesDataDisplay/>
                         <RecuiteButton/>
                     </aside>
                     <Grid2 className={"employees-cards-container"}>

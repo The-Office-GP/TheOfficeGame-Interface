@@ -1,0 +1,16 @@
+.simulation-container{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    max-height: 800px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center !important;
+    align-self: center !important;
+    background-repeat: no-repeat;
+    background-image: url("https://trello.com/1/cards/67b34f92a0acde729599d959/attachments/67c4d6fc402510c418195bf2/download/Cycle-popup-background.png");
+    border-radius: 20px;
+color: #FFFFFF;
+    font-size:x-large;
+}

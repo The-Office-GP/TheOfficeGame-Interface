@@ -10,7 +10,7 @@ import MarcketPlacePage from "./pages/MarcketPlacePage.tsx";
 import GameEmployeesPage from "./pages/GameEmpoyeesPage.tsx";
 import RecruitmentPage from "./pages/RecruitmentPage.tsx";
 import SimulationPage from "./pages/SimulationPage.tsx";
-import EvenementPage from "./pages/EvenementPage.tsx";
+import EventPage from "./pages/EventPage.tsx";
 import TreeMonthCheckPage from "./pages/TreeMonthCheckPage.tsx";
 import YearCheckPage from "./pages/YearCheckPage.tsx";
 import EmployeesPage2 from "./pages/EmployeesPage2.tsx";
@@ -33,7 +33,7 @@ function App() {
             <EmployeesPage2/>
             <GameEmployeesPage/>
             <RecruitmentPage/>
-            <EvenementPage/>
+            <EventPage/>
             <TreeMonthCheckPage/>
             <YearCheckPage/>
         </>
