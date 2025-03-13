@@ -52,16 +52,11 @@ const MarketPlacePage: FC<{}> = ({}) => {
                                 <p>PriceValue €</p>
                             </div>
                             <div>
-                                <p>Qualité :</p>
-                                <progress className={"progress"} id={"quality-progress"}></progress>
-                            </div>
-                            <div>
-                                <p>Production :</p>
-                                <progress className={"progress"} id={"production-progress"}></progress>
-                            </div>
-                            <div>
-                                <p>Côut de maintenance :</p>
-                                <progress className={"progress"} id={"maintenance-progress"}></progress>
+                                <p>Qualité : QualityValue</p>
+
+                                <p>Production : productionTypeValue</p>
+
+                                <p>Côut de maintenance : priceValue</p>
                             </div>
                         </div>
                     </div>
