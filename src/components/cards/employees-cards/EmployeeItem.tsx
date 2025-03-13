@@ -18,7 +18,6 @@ const EmployeeItem: FC<{ employee: EmployeesType }> = ({employee}) => {
                 />
             )}
             <div className={"employee-card-info"}>
-
                 <p>Poste : {employee.job}</p>
                 <p>Salaire : {employee.salary} €</p>
                 <p>Niveau: {employee.level}</p>
@@ -26,7 +25,6 @@ const EmployeeItem: FC<{ employee: EmployeesType }> = ({employee}) => {
                 <p>Santé : {employee.health}%</p>
                 <progress value={employee.health} max="100"></progress>
                 <EmployeesCardsButtons/>
-
             </div>
 
         </div>

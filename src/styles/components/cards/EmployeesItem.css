@@ -17,3 +17,7 @@
     align-items: center;
     justify-content: center;
 }
+
+.employee-card-info p {
+    margin: 0;
+}
