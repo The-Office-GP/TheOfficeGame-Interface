@@ -1,5 +1,4 @@
 import {FC} from "react";
-
 import EmployeesData from "../data/emlpoyees.json";
 import EmployeeItem from "../components/cards/employees-cards/EmployeeItem.tsx"; // Assurez-vous que le fichier est bien "list.json"
 

@@ -1,4 +1,4 @@
-.recruitment-cards-container{
+.recruitment-cards-container {
     width: 650px;
     height: 800px;
     display: flex;
@@ -10,19 +10,22 @@
     border-radius: 20px;
     border-radius: 20px;
 }
-.recruitment-card-header{
-padding: 10px;
+
+.recruitment-card-header {
+    padding: 10px;
     display: flex;
     flex-direction: row;
     gap: 20px;
 
 }
-.recruitment-img{
-    width: 95px;
-    height: 105px;
+
+.recruitment-img {
+    width: 100px;
+    height: 100px;
 }
-.h3-description{
-width: 100%;
+
+.h3-description {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,24 +36,30 @@ width: 100%;
 .choice-container {
     width: 100%;
     display: flex;
+    max-height: 400px;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
-.recruitment-card{
+
+.recruitment-card {
     width: 100%;
     max-width: 420px;
     height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 20px;
     padding: 20px;
     border-radius: 20px;
     background: rgba(33, 158, 188, 0.8);
 }
 
-.candidate-picture-name{
+.candidate-picture-name {
     margin-bottom: 30px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
 
