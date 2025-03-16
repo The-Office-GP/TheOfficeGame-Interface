@@ -13,19 +13,6 @@ p {
     flex-direction: row;
 }
 
-.event-choice-card-container {
-    width: 100%;
-    max-width: 650px;
-    height: 750px;
-    background: rgba(255, 179, 92, 0.8);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    color: #023047;
-    font-size: x-large;
-}
 
 .event-card-header {
     width: 100%;

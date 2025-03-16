@@ -1,7 +1,7 @@
 import {FC, useState} from 'react';
 import EmployeesData from "../../../data/emlpoyees.json"
 import {EmployeesType} from "../../../type/employes";
-import CardList from "../event-cards/CardList.tsx";
+import CardList from "../../list/CardList.tsx";
 
 const EmployeesSwipe: FC<{EmployeesData:any}> = ({}) => {
     // Vérification que les données existent bien

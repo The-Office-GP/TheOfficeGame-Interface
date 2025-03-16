@@ -2,7 +2,7 @@ import {FC} from 'react';
 import EmployeesData from "../../data/emlpoyees.json";
 import {EmployeesType} from "../../type/employes";
 
-import "../../styles/components/list/EmployeesDataDisplay.css"
+import "../../styles/components/menu-display/EmployeesDataDisplay.css"
 
 const EmployeesDataList: FC<{}> = ({}) => {
     return (

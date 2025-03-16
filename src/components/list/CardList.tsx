@@ -1,6 +1,6 @@
 import {FC} from "react";
 import TinderCard from "react-tinder-card";
-import "../../../styles/components/cards/RecruitmentCard.css"
+import "../../styles/components/cards/RecruitmentCard.css"
 
 type Employee = {
     id: number;

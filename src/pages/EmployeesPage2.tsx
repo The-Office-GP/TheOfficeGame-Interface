@@ -4,7 +4,7 @@ import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
 import {Grid2} from "@mui/material";
 
-import EmployeeList from "../data/EmployeesList.tsx";
+import EmployeeList from "../components/list/EmployeesList.tsx";
 
 import "../styles/pages/EmpoyeesPage.css"
 import EmployeesLevelButtons from "../components/buttons/employees-buttons/EmployeesLevelButtons.tsx";
