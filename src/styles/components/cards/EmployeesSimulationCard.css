@@ -1,0 +1,28 @@
+.employees-simulation-cards-display{
+
+    height: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    gap: 5px;
+
+}
+.employees-data {
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+.employee-simulation-card{
+    padding: 5px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(33, 158, 188, 0.8);
+    border-radius: 20px;
+}

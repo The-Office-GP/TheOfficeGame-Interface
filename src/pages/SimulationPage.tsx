@@ -8,7 +8,7 @@ const SimulationPage: FC<{}> = ({}) => {
         <>
             <Header/>
             <section className={"office-background-section"}>
-<SimulationContainer></SimulationContainer>
+<SimulationContainer/>
             </section>
             <Footer/>
         </>
