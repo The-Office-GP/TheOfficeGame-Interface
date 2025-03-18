@@ -11,3 +11,9 @@
     --yellow: rgba(255, 209, 92, 0.8); /* yellow-opacity 80% */
     --white: #FFFFFF; /*white*/
 }
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 2px ! important;
+}
