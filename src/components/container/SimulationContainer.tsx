@@ -29,21 +29,20 @@ const SimulationContainer: FC<{}> = ({}) => {
                         </div>
                     </div>
                     <div className={"production-settings-part"}>
-                        <h4>Produits</h4>
                         <div className={"params-container"}>
                             <label>Palettes</label>
                             <input type={"range"} className={"range-input"}/>
                         </div>
                         <div className={"params-container"}>
-                            <label>Chaise</label>
+                            <label>Chaises</label>
                             <input type={"range"} className={"range-input"}/>
                         </div>
                         <div className={"params-container"}>
-                            <label>Table</label>
+                            <label>Tables</label>
                             <input type={"range"} className={"range-input"}/>
                         </div>
                         <div className={"params-container"}>
-                            <label>Cabane</label>
+                            <label>Cabanes</label>
                             <input type={"range"} className={"range-input"}/>
                         </div>
                     </div>
