@@ -1,4 +1,4 @@
-.simulation-container{
+.simulation-container {
     margin: 0 auto;
     width: 100%;
     max-width: 1200px;
@@ -7,35 +7,74 @@
     display: flex;
     flex-direction: column;
     max-height: 800px;
+    justify-content: center;
     align-items: center;
-    justify-self: center !important;
-    align-self: center !important;
     background-repeat: no-repeat;
     background-image: url("https://trello.com/1/cards/67b34f92a0acde729599d959/attachments/67c4d6fc402510c418195bf2/download/Cycle-popup-background.png");
     border-radius: 20px;
-color: #FFFFFF;
-    font-size:x-large;
+    color: #FFFFFF;
+    font-size: x-large;
     overflow: scroll;
     scrollbar-width: none;
 }
-.simulation-container h2{
-    margin-top: 30px;
-}
-.production-settings{
-    width: 100%;
 
+.settings {
+    width: 100%;
+    max-width: 950px;
     margin: 5px;
     padding: 10px;
     display: flex;
+    flex-direction: column;
+
+}
+
+.production-settings-part {
+    margin: 20px;
+    width: 100%;
+    max-width: 900px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.setting-container-production{
+    width: 100%;
+    display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-.production-settings-part{
-    width: 100%;
-    max-width: 500px;
-    justify-content: space-between;
-}
-.range-input{
-    width: 250px;
+.range-input-production {
+    width: 450px;
     margin-left: 5px;
+    display: flex;
+}
+.marketing-label{
+    padding-right: 5px;
+}
+
+.products-settings-part {
+    margin: 20px;
+    width: 100%;
+    max-width: 950px;
+    display: flex;
+    justify-content: space-around;
+    justify-self: center;
+}
+.settings-container-products{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.range-input-products{
+display: flex;
+    flex-direction: column;
+    writing-mode: vertical-lr; /* Permet d'afficher le slider verticalement */
+    direction: rtl;
 }

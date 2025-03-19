@@ -9,7 +9,7 @@ const ToolsCard: FC<{}> = ({}) => {
                     <PrecisionManufacturingIcon className={"dashboard-icon"}/>
                     <h4> Matériel</h4>
                 </div>
-                <ul className={"metrics-list"}>
+                <ul className={"metrics-lists"}>
                     <li>Machines : toolsValue</li>
                     <li>Côut : chargesValue</li>
                 </ul>

@@ -1,6 +1,7 @@
 import {FC} from 'react';
+import "../../../styles/components/buttons/StartSimulationButton.css"
 
-const StartSimulation: FC<{}> = ({}) => {
+const StartSimulationButton: FC<{}> = ({}) => {
     return (
         <>
             <button className={"start-simulation-button"}>Lancer simulation</button>
@@ -8,4 +9,4 @@ const StartSimulation: FC<{}> = ({}) => {
     );
 };
 
-export default StartSimulation;
+export default StartSimulationButton;

@@ -1,54 +1,47 @@
 import {FC} from 'react';
 import "../../styles/components/containers/SimulationContainer.css"
-
-import EmployeesSimulationCard from "../cards/employees-cards/EmployeesSimulationCard.tsx";
-import SimulationTable from "../table/SimulationTable.tsx";
+import StartSimulation from "../buttons/simulation/StartSimulation.tsx";
 
 const SimulationContainer: FC<{}> = ({}) => {
     return (
         <>
             <div className={"simulation-container"}>
                 <h2>Simulation</h2>
-                <h3>Equipe</h3>
-                    <EmployeesSimulationCard/>
-                <h3>Production</h3>
-                <div className={"production-settings"}>
-
+                <div className={"settings"}>
                     <div className={"production-settings-part"}>
-                        <div className={"params-container"}>
+                        <div className={"setting-container-production"}>
                             <label>Rythme de production</label>
-                            <input type={"range"} className={"range-input"}/>
+                            <input type={"range"} className={"range-input-production"}/>
                         </div>
-                        <div className={"params-container"}>
+                        <div className={"setting-container-production"}>
                             <label>Prioriser la production</label>
-                            <input type={"range"} className={"range-input"}/>
+                            <input type={"range"} className={"range-input-production"}/>
                         </div>
-                        <div className={"params-container"}>
-                            <label>Prioriser le marketing</label>
-                            <input type={"range"} className={"range-input"}/>
+                        <div className={"setting-container-production"}>
+                            <label className={"marketing-label "}>Prioriser le marketing &nbsp; </label>
+                            <input type={"range"} className={"range-input-production"}/>
                         </div>
                     </div>
-                    <div className={"production-settings-part"}>
-                        <div className={"params-container"}>
-                            <label>Palettes</label>
-                            <input type={"range"} className={"range-input"}/>
-                        </div>
-                        <div className={"params-container"}>
-                            <label>Chaises</label>
-                            <input type={"range"} className={"range-input"}/>
-                        </div>
-                        <div className={"params-container"}>
-                            <label>Tables</label>
-                            <input type={"range"} className={"range-input"}/>
-                        </div>
-                        <div className={"params-container"}>
-                            <label>Cabanes</label>
-                            <input type={"range"} className={"range-input"}/>
-                        </div>
+                    <div className={"products-settings-part"}>
+                            <div className={"settings-container-products"}>
+                                <label>Palettes</label>
+                                <input type={"range"} className={"range-input-products"}/>
+                            </div>
+                            <div className={"settings-container-products"}>
+                                <label>Chaises</label>
+                                <input type={"range"} className={"range-input-products"}/>
+                            </div>
+                            <div className={"settings-container-products"}>
+                                <label>Tables</label>
+                                <input type={"range"} className={"range-input-products"}/>
+                            </div>
+                            <div className={"settings-container-products"}>
+                                <label>Cabanes</label>
+                                <input type={"range"} className={"range-input-products"}/>
+                            </div>
                     </div>
                 </div>
-                <SimulationTable/>
-
+                <StartSimulation/>
             </div>
         </>
     );

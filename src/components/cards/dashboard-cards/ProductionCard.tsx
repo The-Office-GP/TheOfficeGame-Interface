@@ -9,7 +9,7 @@ const ProductionCard: FC<{}> = ({}) => {
                     <StackedLineChartIcon className={"dashboard-icon"}/>
                     <h4>Production</h4>
                 </div>
-                <ul className={"metrics-list"}>
+                <ul className={"metrics-lists"}>
                     <li>Bénéfices : profitValue</li>
                     <li>Perte : lossesValue</li>
                     <li>Charges :chargeValue</li>
