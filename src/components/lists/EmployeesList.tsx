@@ -1,6 +1,6 @@
 import {FC} from "react";
 import EmployeesData from "../../data/emlpoyees.json";
-import EmployeeItem from "../cards/employees-cards/EmployeeItem.tsx"; // Assurez-vous que le fichier est bien "list.json"
+import EmployeeItem from "../cards/employees-cards/EmployeeItem.tsx"; // Assurez-vous que le fichier est bien "lists.json"
 
 import "../../styles/pages/EmpoyeesPage.css"
 const EmployeeList: FC = () => {

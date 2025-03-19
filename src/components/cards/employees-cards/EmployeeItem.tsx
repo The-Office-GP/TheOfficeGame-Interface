@@ -18,11 +18,11 @@ const EmployeeItem: FC<{ employee: EmployeesType }> = ({employee}) => {
                 />
             )}
             <div className={"employee-card-info"}>
-                <p className={"employees-p-list"}>Poste : {employee.job}</p>
-                <p className={"employees-p-list"}>Salaire : {employee.salary} €</p>
-                <p className={"employees-p-list"}>Niveau: {employee.level}</p>
-                <p className={"employees-p-list"}>Humeur: {employee.mood}</p>
-                <p className={"employees-p-list"}>Santé : {employee.health}%</p>
+                <p className={"employees-p-lists"}>Poste : {employee.job}</p>
+                <p className={"employees-p-lists"}>Salaire : {employee.salary} €</p>
+                <p className={"employees-p-lists"}>Niveau: {employee.level}</p>
+                <p className={"employees-p-lists"}>Humeur: {employee.mood}</p>
+                <p className={"employees-p-lists"}>Santé : {employee.health}%</p>
                 <progress value={employee.health} max="100"></progress>
                 <EmployeesCardsButtons/>
             </div>

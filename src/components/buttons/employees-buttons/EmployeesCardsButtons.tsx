@@ -4,7 +4,7 @@ import "../../../styles/components/buttons/EmployeesCardsButtons.css"
 const EmployeesCardsButtons: FC<{}> = ({}) => {
     return (
         <>
-            <div className={"list-dashboard-cards-buttons"}>
+            <div className={"lists-dashboard-cards-buttons"}>
                 <form>
                     <select className={"increase-selection"} >
                         <option className={"increase-options"} id={"increase-option-1"}>2000 €</option>

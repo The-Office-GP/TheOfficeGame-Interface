@@ -10,7 +10,7 @@ const EmployeesCard: FC<{}> = ({}) => {
                     <PeopleIcon className={"dashboard-icon"}/>
                     <h4> RH</h4>
                 </div>
-                <ul className={"metrics-list"}>
+                <ul className={"metrics-lists"}>
                     <li>Salariés : employeesValue</li>
                     <li>Charges sociales : chargesValue</li>
                     <li>Humeure : moodValue</li>
