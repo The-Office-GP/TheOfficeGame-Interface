@@ -18,7 +18,7 @@ type Props = {
 console.log("Liste des events:", events);
 
 
-const EventChoice: React.FC<Props> = ({eventId}) => {
+const EventChoice: React.FC<Props> = ({}) => {
     const [choice, setChoice] = useState<null | "yes" | "no">(null);
 
     const selectedEvent = events.find((e) =>
@@ -46,7 +46,6 @@ const EventChoice: React.FC<Props> = ({eventId}) => {
             </div>
         );
     }
-
     const handleChoice = (val: "yes" | "no") => setChoice(val);
     const handleContinue = () => setChoice(null);
 
@@ -59,7 +58,6 @@ const EventChoice: React.FC<Props> = ({eventId}) => {
                     <p>{selectedEvent.description}</p>
                 </div>
             </div>
-
             {!choice && (
                 <div className="choice-place">
                     <NoChoiceButton onClick={() => handleChoice("no")}/>
@@ -74,14 +72,12 @@ const EventChoice: React.FC<Props> = ({eventId}) => {
                     <YesChoiceButton onClick={() => handleChoice("yes")}/>
                 </div>
             )}
-
             {choice === "yes" && (
                 <div className="choice-overlay">
                     <GoodChoiceCard data={selectedEvent.goodChoice}/>
                     <button onClick={handleContinue}>Continuer</button>
                 </div>
             )}
-
             {choice === "no" && (
                 <div className="choice-overlay">
                     <BadChoiceCard data={selectedEvent.badChoice}/>
