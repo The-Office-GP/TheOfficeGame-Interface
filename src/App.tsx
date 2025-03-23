@@ -7,13 +7,14 @@ import OfficePage from "./pages/OfficePage.tsx";
 import GameHomePage from "./pages/GameHomePage.tsx";
 import GameDashboardPage from "./pages/GameDashboardPage.tsx";
 import MarcketPlacePage from "./pages/MarcketPlacePage.tsx";
-import GameEmployeesPage from "./pages/GameEmpoyeesPage.tsx";
 import RecruitmentPage from "./pages/RecruitmentPage.tsx";
 import SimulationPage from "./pages/SimulationPage.tsx";
 import EventPage from "./pages/EventPage.tsx";
-import TreeMonthCheckPage from "./pages/TreeMonthCheckPage.tsx";
+
 import YearCheckPage from "./pages/YearCheckPage.tsx";
 import EmployeesPage2 from "./pages/EmployeesPage2.tsx";
+import SimulationResultsPage from "./pages/SimulationResultsPage.tsx";
+import SupplierMarketPlace from "./pages/SupplierMarketPlace.tsx";
 
 
 function App() {
@@ -27,15 +28,16 @@ function App() {
             <BuildingCompanyPage/>
             <OfficePage/>
             <GameHomePage/>
+            <EmployeesPage2/>
+            <SupplierMarketPlace/>
+            <RecruitmentPage/>
+            <MarcketPlacePage/>
             <GameDashboardPage/>
             <SimulationPage/>
-            <MarcketPlacePage/>
-            <EmployeesPage2/>
-            <GameEmployeesPage/>
-            <RecruitmentPage/>
-            <EventPage/>
-            <TreeMonthCheckPage/>
+            <SimulationResultsPage/>
             <YearCheckPage/>
+            <EventPage/>
+
         </>
     )
 }

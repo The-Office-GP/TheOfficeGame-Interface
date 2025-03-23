@@ -3,7 +3,7 @@ import NoChoiceButton from "../../buttons/recruitment-buttons/NoChoiceButton";
 import YesChoiceButton from "../../buttons/recruitment-buttons/YesChoiceButton";
 import {EventType} from "../../../type/event";
 import "../../../styles/components/cards/EventCard.css";
-import EventSwipe from "./EventSwipe.tsx";
+import EventChoice from "./EventChoice.tsx";
 
 type ChoiceCardProps = {
     event: EventType;
@@ -22,7 +22,7 @@ const ChoiceCard: FC<ChoiceCardProps> = ({event}) => {
             </div>
             <div className="choice-place">
                 <NoChoiceButton/>
-                <EventSwipe/>
+                <EventChoice/>
                 <YesChoiceButton/>
             </div>
         </div>

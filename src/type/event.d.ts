@@ -1,8 +1,6 @@
-export interface Consequence {
-    costs: number;
-    mood: number;
-    production: number;
-    popularity: number;
+
+export interface EventData {
+    events: EventType[];
 }
 
 export interface EventType {
@@ -11,7 +9,14 @@ export interface EventType {
     description: string;
     consequencesPreview: string;
     firstChoice: string;  // "Oui"
-    SecondChoice: string; // "Non"
+    secondChoice: string; // "Non"
     goodChoice: Consequence;
     badChoice: Consequence;
+}
+
+export interface Consequence {
+    costs: number;
+    mood: number;
+    production: number;
+    popularity: number;
 }

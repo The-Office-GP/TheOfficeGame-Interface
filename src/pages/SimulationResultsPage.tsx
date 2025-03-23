@@ -1,20 +1,18 @@
 import {FC} from 'react';
-import "../styles/pages/OfficeBackground.css"
+import "../styles/OfficeBackground.css"
 import Header from "../components/Header.tsx";
 import Footer from "../components/Footer.tsx";
-
-import EventChoice from "../components/cards/event-cards/EventChoice.tsx";
-
-const EventPage: FC<{}> = ({}) => {
+import SimulationResultsContainer from "../components/container/SimulationResultsContainer.tsx";
+const SimulationResultsPage: FC<{}> = ({}) => {
     return (
         <>
             <Header/>
             <section className={"office-background-section"}>
-                   <EventChoice/>
+<SimulationResultsContainer/>
             </section>
             <Footer/>
         </>
     );
 };
 
-export default EventPage;
+export default SimulationResultsPage;

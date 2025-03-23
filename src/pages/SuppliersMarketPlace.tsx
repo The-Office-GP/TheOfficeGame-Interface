@@ -5,7 +5,7 @@ import Footer from "../components/Footer.tsx";
 
 import "../styles/components/containers/SimulationContainer.css"
 
-const TreeMonthCheckPage: FC<{}> = ({}) => {
+const SuppliersMarketPlace: FC<{}> = ({}) => {
     return (
         <>
             <Header/>
@@ -21,4 +21,4 @@ const TreeMonthCheckPage: FC<{}> = ({}) => {
     );
 };
 
-export default TreeMonthCheckPage;
+export default SuppliersMarketPlace;
